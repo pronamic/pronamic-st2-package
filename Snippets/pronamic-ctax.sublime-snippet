@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+register_taxonomy('${1:taxonomy-name}','${2:post-type-name}',
+	array(
+	    'labels' => array(
+            'name'                          => _x( '${3:uppercase-plural}', 'taxonomy general name', '${7:domain}' ),
+            'singular_name'                 => _x( '${4:uppercase-single}', 'taxonomy singular name', '${7:domain}' ),
+            'search_items'                  => __( 'Search ${3:uppercase-plural}', '${7:domain}' ),
+            'popular_items'                 => __( 'Popular ${3:uppercase-plural}', '${7:domain}' ),
+            'all_items'                     => __( 'All ${3:uppercase-plural}', '${7:domain}' ),
+            'parent_item'                   => null,
+            'parent_item_colon'             => null,
+            'edit_item'                     => __( 'Edit ${4:uppercase-single}', '${7:domain}' ),
+            'update_item'                   => __( 'Update ${4:uppercase-single}', '${7:domain}' ),
+            'add_new_item'                  => __( 'Add New ${4:uppercase-single}', '${7:domain}' ),
+            'new_item_name'                 => __( 'New ${4:uppercase-single} Name', '${7:domain}' ),
+            'separate_items_with_commas'    => __( 'Separate ${5:lowercase-plural} with commas', '${7:domain}' ),
+            'add_or_remove_items'           => __( 'Add or remove ${5:lowercase-plural}', '${7:domain}' ),
+            'choose_from_most_used'         => __( 'Choose from the most used ${5:lowercase-plural}', '${7:domain}' ),
+            'menu_name'                     => __( '${3:uppercase-plural}', '${7:domain}' ),
+	    ),
+        'hierarchical'              => false,
+        'show_ui'                   => true,
+        'show_admin_column'         => true,
+        'update_count_callback'     => '_update_post_term_count',
+        'query_var'                 => true,
+	    'rewrite'                   => array( 'slug' => '${6:lowercase-single}' ),
+	)
+);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pronamic-ctax</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>

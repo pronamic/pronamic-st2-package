@@ -1,0 +1,59 @@
+<snippet>
+    <content><![CDATA[
+/**
+* ============
+* === Fonts ===
+* ============
+**/
+h1 {
+
+}
+
+h2 {
+
+}
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+a {
+
+}
+
+pre {
+    
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>pronamic-cssfonts</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.css</scope>
+</snippet>

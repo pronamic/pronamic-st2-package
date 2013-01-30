@@ -1,0 +1,33 @@
+<snippet>
+    <content><![CDATA[
+<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h1>
+<h2>Nulla dolor magna, ultricies vitae consequat adipiscing, malesuada ultricies velit.</h2>
+<h3>Donec suscipit ante sed nisl egestas interdum. Aenean faucibus tempus feugiat. </h3>
+<h4>Pellentesque erat felis, porttitor et varius ut, elementum a sapien.</h4>
+<h5>Proin iaculis, sem ut consequat hendrerit, <h5>
+<h6>justo arcu posuere tellus, ac ullamcorper lorem erat nec justo.</h6>
+<p>Nunc ut sagittis odio. Suspendisse risus libero, mollis eu euismod nec, varius vel nisi. Duis erat massa, vulputate vitae congue ut, mattis ut tellus. Integer eu odio nec mauris auctor cursus nec commodo nunc. Suspendisse potenti.</p>
+<p>Nullam mattis vulputate dictum. Praesent nec turpis diam. Morbi bibendum purus elementum diam placerat ut dapibus leo facilisis. Curabitur vel neque a ipsum tincidunt blandit a ut nunc. Proin faucibus, enim interdum commodo aliquam, lacus erat consectetur magna, nec hendrerit arcu neque ac odio. Proin malesuada lorem a tortor vehicula id tempor turpis sodales. Mauris porta auctor blandit. Nam nunc dolor, mollis quis condimentum quis, volutpat a odio. Praesent ac nisi ut odio cursus suscipit.</p>
+<a href="#">Morbi quam enim, mattis eget tempus sit amet, accumsan ac mi.</a>
+<ul>
+    <li>Aenean tempus ipsum vel nulla posuere pharetra.</li>
+    <li>Donec feugiat consectetur mauris, in laoreet justo mattis in.</li>
+    <li>Pellentesque habitant morbi tristique </li>
+    <li>senectus et netus et malesuada fames ac turpis egestas.</li>
+    <li>Curabitur vehicula sem vel augue posuere blandit. </li>
+    <li>In hac habitasse platea dictumst. </li>
+ </ul>
+ <ol>
+    <li>Fusce ultricies risus at dui laoreet sit amet lobortis massa molestie.</li> 
+    <li>Sed facilisis sagittis vehicula. </li>
+    <li>Cras laoreet hendrerit quam, </li>
+    <li>vestibulum molestie massa fermentum in.</li>
+    <li>Praesent cursus pharetra varius.</li>
+</ol>
+<pre>Vivamus odio metus, pellentesque porta auctor sit amet, sollicitudin in leo. Sed et enim quis dolor rhoncus posuere. Aliquam fermentum tincidunt nisl ac commodo. Sed egestas feugiat ante, ac laoreet justo dictum ut. Sed id neque sem, non aliquam ante. Duis iaculis est at dui laoreet eget vestibulum tellus porta. Mauris vulputate, velit ac dapibus porta, lacus dolor blandit ligula, ac dignissim lacus urna ac nulla. Quisque tempor sodales sapien, nec lobortis nisi fermentum sed. Cras in ante sit amet eros vulputate aliquam consectetur in eros. Donec augue orci, euismod ac malesuada at, consequat id odio. Mauris luctus sollicitudin justo nec viverra. Aenean vitae elementum sapien. Pellentesque bibendum augue metus. Donec vel velit eros.</pre>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>pronamic-textplaceholder</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.html</scope> -->
+</snippet>
